@@ -1,0 +1,112 @@
+/* Set default font and remove margin/padding from the entire page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header: background color, text color, alignment, padding, and font */
+header {
+    background-color: #17072b;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    font-family: Tahoma, sans-serif;
+    font-weight: 700;
+}
+
+/* Style the navigation menu list */
+nav ul {
+    list-style: none; 
+    padding: 0;
+    display: flex; 
+    justify-content: center; 
+    /* Space between links */
+    gap: 20px; 
+    margin-top: 10px;
+}
+
+/* Style individual navigation links */
+nav ul li a {
+    color: #ffffff;
+/* Remove underline from links */
+    text-decoration: none; 
+    font-weight: bold;
+}
+
+/* Style the main content area */
+main {
+    /* Arrange sections side by side */
+    display: flex; 
+    /* Allow wrapping on smaller screens */
+    flex-wrap: wrap;
+/* Space between sections */
+    justify-content: space-between; 
+    padding: 20px;
+}
+
+/* Style for the Welcome section */
+.welcome {
+    flex: 2; 
+/* Space between welcome and lineup */
+    margin-right: 20px; 
+}
+
+/* Style for the Welcome section heading */
+.welcome h2 {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Style for the image inside the Welcome section */
+.welcome img {
+    width: 100%; 
+    /* Limit the maximum width */
+    max-width: 500px; 
+    /* Maintain aspect ratio */
+        height: auto; 
+    margin-top: 10px;
+}
+
+/* Style for the Lineup section */
+.lineup {
+    background-color: #172d67;
+    color: #ffffff;
+    padding: 20px;
+    /* Take up less space compared to welcome */
+    flex: 1; 
+}
+
+/* Style for the Lineup section heading */
+.lineup h2 {
+    text-decoration: underline;
+}
+
+/* Remove list styling for the Lineup list */
+.lineup ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Container for images inside Lineup */
+.lineup .images {
+    display: flex; 
+    gap: 10px; 
+    margin-top: 10px;
+}
+
+/* Style for images inside the Lineup section */
+.lineup .images img {
+    width: 100px;
+    height: 100px;
+/* Crop image to fit container */
+    object-fit: cover; 
+}
+/* Style the footer */
+footer {
+    background-color: #8c15e9;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9rem;
+}

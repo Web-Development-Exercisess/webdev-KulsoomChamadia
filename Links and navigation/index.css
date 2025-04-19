@@ -1,0 +1,66 @@
+/* Base styles for the entire page */ 
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #586ba9;
+    color: #000000;
+  }
+  /* Styling Navigation bar */
+  nav {
+    background: #242fa1d3;
+    padding: 1em;
+    position: sticky;
+    top: 0;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0 1em;
+  }
+  /* Navigation link styles */
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  /* Section styling for pg content */
+  section {
+    padding: 2em;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  /* Two example classes */
+  .highlight {
+    background-color: #e0f7fa;
+    padding: 1em;
+    border-left: 4px solid #00acc1;
+  }
+  
+  .section-title {
+    color: #00796b;
+    font-size: 1.8em;
+  }
+  
+  /* styling official site button */
+  .button {
+    display: inline-block;
+    padding: 0.75em 1.5em;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 2em;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  

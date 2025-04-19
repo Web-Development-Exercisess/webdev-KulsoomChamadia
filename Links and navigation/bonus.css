@@ -1,0 +1,96 @@
+/* google font for giving new look to the website and make it attractive */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+/* styling for the web pg */
+body {
+    /* choosing 'Cinzel' font */
+    font-family: 'Cinzel', serif; 
+    background-color: #1e1e1e;
+    color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+/* main heading styling */
+h1 {
+    font-size: 2em;
+    color: #d4af37;
+    border-bottom: 2px solid #e63946;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+/* styling for paragraphs and items list */
+p, li {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* navigation bar styled on the side of the website  */
+nav {
+    width: 200px;
+    background-color: #111;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* for removing the bullet points from the navigation list */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+/* design for each navigation list */
+nav ul li {
+    margin: 20px 0;
+}
+/* styling for the links in navigation */
+nav ul li a {
+    text-decoration: none;
+    color: #d4af37;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+/* style for links when hovered over it will change the color */
+nav ul li a:hover {
+    color: #e63946;
+}
+
+/* design for official site button */
+.button-link {
+    padding: 8px 16px;
+    border: 2px solid #d4af37;
+    border-radius: 5px;
+    color: #d4af37;
+    transition: all 0.3s;
+    display: inline-block;
+    margin-top: 20px;
+}
+/* it will change the color when the user put mouse on it  */
+.button-link:hover {
+    background-color: #d4af37;
+    color: #1e1e1e;
+}
+
+/* styling for main section */
+main {
+    /* spacing for sidebar in website */
+    margin-left: 220px;   
+        /* to/right/bottom/left padding */
+    padding: 60px 40px;   
+    flex: 1;
+}
+/* styling for section inside the main content */
+section {
+    padding: 50px 20px;
+    max-width: 900px;
+    margin: auto;
+    border-bottom: 1px solid #444;
+}
+

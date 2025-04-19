@@ -1,0 +1,37 @@
+/* style.css */
+body, html {
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+  }
+  
+  .video-wrapper {
+    position: relative;
+    width: 80%;
+    max-width: 800px;
+  }
+  
+  video {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    height: 80px;
+    background-size: contain;
+    cursor: pointer;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
